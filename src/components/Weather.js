@@ -24,6 +24,9 @@ const styles = {
     },
     button: {
       color: '#ffffff',
+    },
+    actions: {
+      display: 'block',
     }
   };
 
@@ -59,7 +62,7 @@ const styles = {
             {day.weather[0].description}
           </Typography>
         </CardContent>
-        <CardActions>
+        <CardActions className={classes.actions}>
           <Button variant="contained" color="primary" size="small" className={classes.button} onClick={(e) => changeLocation(e,`/day/${index}`)}>Zobacz szczegóły dnia</Button>
         </CardActions>
       </Card>
