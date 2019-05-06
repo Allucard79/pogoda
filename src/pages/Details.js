@@ -14,7 +14,7 @@ class Details extends React.Component {
     //react router dom przekazuje do dynamicznych adresów zmienne i umożliwia korzystanie z nich (:day) przy użyciu props.match.params
       .then(res => {
         this.setState({
-          current: res.data.list[this.props.match.params.day] 
+          current: res.data.list[this.props.match.params.day]
         });
       })
       .catch(err => {

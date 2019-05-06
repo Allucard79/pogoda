@@ -34,7 +34,7 @@ class Home extends React.Component {
       </React.Fragment>
     );
   }
-}
+} 
 //komponent bezstanowy ma zadanie głównie wyświetlać
 function WeatherList(props) {
     return (

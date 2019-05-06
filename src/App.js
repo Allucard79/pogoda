@@ -11,7 +11,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/day/:day" component={Details}/>
-        <Route component={NotFound} />
+        <Route path='*' component={NotFound} />
       </Switch>
     </BrowserRouter>
   );
