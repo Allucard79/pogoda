@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pogoda/static/css/main.8134fe93.chunk.css",
-    "main.js": "/pogoda/static/js/main.194959e4.chunk.js",
-    "main.js.map": "/pogoda/static/js/main.194959e4.chunk.js.map",
+    "main.js": "/pogoda/static/js/main.bd738ac4.chunk.js",
+    "main.js.map": "/pogoda/static/js/main.bd738ac4.chunk.js.map",
     "runtime~main.js": "/pogoda/static/js/runtime~main.a579aba6.js",
     "runtime~main.js.map": "/pogoda/static/js/runtime~main.a579aba6.js.map",
     "static/js/2.ea9f4c9b.chunk.js": "/pogoda/static/js/2.ea9f4c9b.chunk.js",
     "static/js/2.ea9f4c9b.chunk.js.map": "/pogoda/static/js/2.ea9f4c9b.chunk.js.map",
     "index.html": "/pogoda/index.html",
-    "precache-manifest.88cbac25e69beb5213778ac87e863cfd.js": "/pogoda/precache-manifest.88cbac25e69beb5213778ac87e863cfd.js",
+    "precache-manifest.e2a8453887c2a4d15dff913d5df75628.js": "/pogoda/precache-manifest.e2a8453887c2a4d15dff913d5df75628.js",
     "service-worker.js": "/pogoda/service-worker.js",
     "static/css/main.8134fe93.chunk.css.map": "/pogoda/static/css/main.8134fe93.chunk.css.map",
     "static/media/App.css": "/pogoda/static/media/Wroclaw.e426fc0e.jpg"

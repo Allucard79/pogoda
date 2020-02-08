@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b779d9482359c194e2962327163c5a4",
+    "revision": "d87d0fdb3b81de8d4ff0b7b23f2e813f",
     "url": "/pogoda/index.html"
   },
   {
-    "revision": "9e1f3f318f2f76da9eaf",
+    "revision": "8a78c8715018df556b4c",
     "url": "/pogoda/static/css/main.8134fe93.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pogoda/static/js/2.ea9f4c9b.chunk.js"
   },
   {
-    "revision": "9e1f3f318f2f76da9eaf",
-    "url": "/pogoda/static/js/main.194959e4.chunk.js"
+    "revision": "8a78c8715018df556b4c",
+    "url": "/pogoda/static/js/main.bd738ac4.chunk.js"
   },
   {
     "revision": "bdb4c9d2324581a2858d",
