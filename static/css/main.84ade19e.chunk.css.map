@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,kBAAmB,CACnB,UAAc,CACd,aAAc,CACd,iBACF,CAEA,GACE,4BAAgC,CAChC,cACF","file":"main.84ade19e.chunk.css","sourcesContent":["body {\n  background: #273c75;\n  color: #ffffff;\n  margin: 0 auto;\n  text-align: center;\n}\n\nh1 {\n  text-shadow: 2px 2px 4px #000000;\n  font-size: 50px;\n}\n"]}
