@@ -1,7 +1,5 @@
 body {
-  background-image: url('./pages/Wroclaw.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #273c75;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;

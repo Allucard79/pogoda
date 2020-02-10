@@ -8,10 +8,10 @@ class Details extends React.Component {
   };
   componentDidMount() {
     Axios({
-      url: `http://api.openweathermap.org/data/2.5/forecast/daily?q=Wroclaw,pl&cnt=7&appid=70a046fe2789d2e4e3bb919260264d96&units=metric&lang=pl`,
+      url: `https://api.openweathermap.org/data/2.5/forecast/daily?q=Wroclaw,pl&cnt=7&appid=70a046fe2789d2e4e3bb919260264d96&units=metric&lang=pl`,
       method: "GET"
     })
-    //react router dom przekazuje do dynamicznych adresów zmienne i umożliwia korzystanie z nich (:day) przy użyciu props.match.params
+      //react router dom przekazuje do dynamicznych adresów zmienne i umożliwia korzystanie z nich (:day) przy użyciu props.match.params
       .then(res => {
         this.setState({
           current: res.data.list[this.props.match.params.day]

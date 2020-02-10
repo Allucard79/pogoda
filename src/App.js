@@ -1,17 +1,17 @@
-import React from 'react';
-import {BrowserRouter,Route,Switch} from 'react-router-dom'
-import Home from './pages/Home'
-import Details from './pages/Details'
-import NotFound from './pages/NotFound'
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Details from "./pages/Details";
+import NotFound from "./pages/NotFound";
+import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route path="/day/:day" component={Details}/>
-        <Route path='*' component={NotFound} />
+        <Route exact path="/" component={Home} />
+        <Route path="/day/:day" component={Details} />
+        <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
   );
